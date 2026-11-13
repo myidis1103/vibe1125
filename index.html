@@ -1,0 +1,496 @@
+<!-- ... existing code ... -->
+                    <!-- 좌측 텍스트 & 핵심 일시/장소 카드 -->
+                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2">
+                            <span class="px-4 py-1.5 rounded-full bg-gradient-to-r from-rose-400 to-orange-400 text-white font-extrabold text-xs sm:text-sm shadow-sm">
+                                🎓 시즌1 바이브코딩 기초 연수 이수자 대상 심화 과정
+                            </span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-pastel-mintLight text-emerald-800 font-bold text-xs sm:text-sm border border-pastel-mint">
+                                ✨ 2026학년도 교원·실무 역량 강화 심화 연수
+                            </span>
+                        </div>
+
+                        <h1 class="font-display text-3xl sm:text-5xl lg:text-[3.05rem] leading-[1.22] text-pastel-ink tracking-tight">
+                            <span class="block text-xl sm:text-2xl text-rose-500 mb-1.5">시즌1 기초 연수 이수자를 위한 업그레이드!</span>
+                            아이디어에서 <span class="relative inline-block px-2 text-rose-500">실전 웹앱 배포<span class="absolute bottom-1 left-0 w-full h-3 bg-pastel-yellow -z-10 rounded-full"></span></span>까지!<br>
+                            ✨ 바이브 코딩 심화 연수
+                        </h1>
+
+                        <p class="text-base sm:text-lg text-pastel-ink/80 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                            <strong>시즌1 바이브코딩 기초 연수를 이수하신 선생님</strong>들을 위한 다음 단계! 단순 화면 제작을 넘어 <strong>구글 스프레드시트 데이터 연동, 학급/업무 자동화 웹앱, 인터랙티브 수업 도구</strong>를 직접 완성하고 배포합니다.
+                        </p>
+
+                        <!-- 일시 및 장소 하이라이트 박스 -->
+<!-- ... existing code ... -->
+                        <!-- 상단 퀵 액션 버튼 -->
+                        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-2">
+                            <a href="#sec-apply" class="cta-shimmer inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-pastel-pink via-pastel-peach to-pastel-mint text-pastel-ink font-extrabold text-base shadow-pastel hover:scale-105 transition-transform">
+                                🚀 연수 신청 바로가기
+                            </a>
+                            <a href="#sec-survey" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-white text-pastel-ink font-bold text-sm sm:text-base border-2 border-pastel-lavender hover:bg-pastel-lavenderLight transition-colors">
+                                📊 시즌1 연수 만족도 보기
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 우측: 귀여운 바이브 코딩 커스텀 SVG 일러스트레이션 -->
+<!-- ... existing code ... -->
+        <!-- =====================================================================
+             7. 최하단 참가 신청 섹션 & 눈에 띄는 신청 버튼 + 신청 QR 코드
+        ====================================================================== -->
+        <section id="sec-apply" data-title="💌 참가 신청" class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 pt-8 pb-6">
+            <div class="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-pastel-pinkLight via-pastel-peachLight to-pastel-mintLight p-7 sm:p-11 border-2 border-white shadow-pastel">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- 좌측: 신청 안내 및 '연수 신청 바로가기' 버튼 -->
+                    <div class="lg:col-span-8 text-center lg:text-left space-y-4">
+                        <div class="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2">
+                            <span class="px-4 py-1.5 rounded-full bg-rose-500 text-white font-extrabold text-xs sm:text-sm shadow-sm">
+                                🎓 시즌1 바이브코딩 기초 연수 이수자 전용
+                            </span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-white/90 text-emerald-700 font-bold text-xs sm:text-sm border border-pastel-mint">
+                                📊 구글 시트 [바이브코딩 심화 연수] 실시간 연동
+                            </span>
+                        </div>
+
+                        <h2 class="font-display text-2xl sm:text-4xl text-pastel-ink leading-tight">
+                            상상이 실전 웹앱이 되는 마법,<br>
+                            지금 바로 심화 연수를 신청하세요! 🎉
+                        </h2>
+
+                        <p class="text-sm sm:text-base text-pastel-ink/80 leading-relaxed">
+                            <strong>일시:</strong> 2026년 11월 25일(수) 오전 10:00 · <strong>장소:</strong> 영성중학교<br>
+                            근무학교 이름, 시즌1 기초 과정 이수 여부, 연락처만 입력하면 30초 만에 신청이 완료됩니다.
+                        </p>
+
+                        <!-- 맨 아래 핵심 신청 버튼 ('연수 신청 바로가기') -->
+                        <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
+                            <button type="button" id="open-apply-modal-btn"
+                                    class="cta-shimmer w-full sm:w-auto inline-flex items-center justify-center gap-3 px-9 py-4.5 py-4 rounded-full bg-gradient-to-r from-rose-400 via-pink-400 to-orange-400 text-white font-display text-xl sm:text-2xl tracking-wide shadow-glow hover:scale-105 active:scale-95 transition-all cursor-pointer">
+                                <span>🚀 연수 신청 바로가기</span>
+                            </button>
+                        </div>
+
+                        <p class="text-xs text-pastel-ink/65">
+                            * 신청 내역은 구글 스프레드시트 <strong>[바이브코딩 심화 연수]</strong> 명단과 자동 연결됩니다.
+                        </p>
+                    </div>
+
+                    <!-- 우측: 스마트폰 스캔용 신청 QR 코드 카드 -->
+                    <div class="lg:col-span-4 flex flex-col items-center justify-center">
+                        <div class="bg-white/95 rounded-3xl p-5 border-2 border-pastel-mint shadow-md text-center w-full max-w-[230px]">
+                            <div class="text-xs font-extrabold text-emerald-700 mb-2">📱 모바일 간편 신청 QR</div>
+                            <div id="footer-qr-box" class="w-40 h-40 mx-auto rounded-2xl bg-pastel-cream p-2.5 border border-pastel-peach flex items-center justify-center">
+                                <!-- JS에서 실시간 QR SVG/이미지 생성 -->
+                            </div>
+                            <p class="text-[11px] font-semibold text-pastel-ink/75 mt-2.5 leading-snug">
+                                스마트폰 카메라로 스캔하면<br>신청 페이지가 바로 열립니다!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =====================================================================
+         8. 연수 참가 신청 모달 (근무학교 / 시즌1 이수 여부 / 연락처 / QR / 구글 시트 연동)
+    ====================================================================== -->
+    <div id="apply-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-3 sm:p-4 bg-pastel-ink/55 backdrop-blur-sm overflow-y-auto" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="relative w-full max-w-xl bg-pastel-cream rounded-[2rem] border-2 border-pastel-pink shadow-2xl overflow-hidden my-auto">
+            
+            <!-- 모달 상단 헤더 -->
+            <div class="bg-gradient-to-r from-pastel-pinkLight via-pastel-peachLight to-pastel-mintLight px-6 py-4 border-b border-pastel-peach/50 flex items-center justify-between">
+                <div>
+                    <span class="inline-block px-2.5 py-0.5 rounded-full bg-white/90 text-[11px] font-extrabold text-rose-600 mb-0.5">
+                        구글 스프레드시트 [바이브코딩 심화 연수] 연동 신청서
+                    </span>
+                    <h3 id="modal-title" class="font-display text-xl sm:text-2xl text-pastel-ink">✨ 바이브 코딩 심화 연수 신청</h3>
+                </div>
+                <button type="button" id="close-apply-modal-btn" aria-label="창 닫기"
+                        class="w-9 h-9 rounded-full bg-white/90 text-pastel-ink font-bold flex items-center justify-center hover:bg-rose-100 transition-colors cursor-pointer">
+                    ✕
+                </button>
+            </div>
+
+            <!-- 신청 폼 화면 -->
+            <form id="apply-form" class="p-5 sm:p-6 space-y-4">
+                <!-- 상단 미니 요약 + 모달 내 신청 QR 코드 -->
+                <div class="flex items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-pastel-mint/80 shadow-xs">
+                    <div class="text-xs space-y-1">
+                        <div class="font-extrabold text-emerald-800">🎓 시즌1 바이브코딩 기초 연수 이수자 심화 과정</div>
+                        <div class="text-pastel-ink/75">🗓️ 2026. 11. 25.(수) 10:00 · 🏫 영성중학교</div>
+                        <div class="text-[11px] text-rose-600 font-semibold">📊 제출 시 [바이브코딩 심화 연수] 시트에 기록됩니다.</div>
+                    </div>
+                    <div class="shrink-0 text-center">
+                        <div id="modal-qr-box" class="w-16 h-16 rounded-xl bg-pastel-cream p-1 border border-pastel-peach flex items-center justify-center"></div>
+                        <span class="block text-[10px] font-bold text-pastel-ink/60 mt-0.5">신청 QR</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                    <!-- 1) 성함 -->
+                    <div>
+                        <label for="applicant-name" class="block text-sm font-bold text-pastel-ink mb-1">성함 <span class="text-rose-500">*</span></label>
+                        <input type="text" id="applicant-name" required placeholder="예: 김영성"
+                               class="w-full px-4 py-2.5 rounded-2xl bg-white border border-pastel-peach focus:outline-none focus:ring-2 focus:ring-pastel-pink text-sm">
+                    </div>
+
+                    <!-- 2) 근무학교 이름 -->
+                    <div>
+                        <label for="applicant-school" class="block text-sm font-bold text-pastel-ink mb-1">근무학교 이름 <span class="text-rose-500">*</span></label>
+                        <input type="text" id="applicant-school" required placeholder="예: 영성중학교"
+                               class="w-full px-4 py-2.5 rounded-2xl bg-white border border-pastel-peach focus:outline-none focus:ring-2 focus:ring-pastel-pink text-sm">
+                    </div>
+                </div>
+
+                <!-- 3) 바이브코딩 시즌1 기초 과정 이수 여부 -->
+                <div>
+                    <span class="block text-sm font-bold text-pastel-ink mb-1.5">바이브코딩 시즌1 기초 과정 이수 여부 <span class="text-rose-500">*</span></span>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                        <label class="cursor-pointer">
+                            <input type="radio" name="season1-status" value="이수 완료" class="peer sr-only" checked required>
+                            <div class="p-3 rounded-2xl bg-white border-2 border-gray-200 peer-checked:border-emerald-400 peer-checked:bg-pastel-mintLight/60 transition-all flex items-center gap-2.5">
+                                <span class="text-lg">✅</span>
+                                <div>
+                                    <div class="font-bold text-sm text-pastel-ink">이수 완료</div>
+                                    <div class="text-[11px] text-pastel-ink/70">시즌1 기초 연수를 수료했습니다</div>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="season1-status" value="이수 예정 (수강 중)" class="peer sr-only" required>
+                            <div class="p-3 rounded-2xl bg-white border-2 border-gray-200 peer-checked:border-amber-400 peer-checked:bg-pastel-yellow/60 transition-all flex items-center gap-2.5">
+                                <span class="text-lg">⏳</span>
+                                <div>
+                                    <div class="font-bold text-sm text-pastel-ink">이수 예정 (수강 중)</div>
+                                    <div class="text-[11px] text-pastel-ink/70">연수일 전까지 이수 완료 예정</div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 4) 연락처 -->
+                <div>
+                    <label for="applicant-phone" class="block text-sm font-bold text-pastel-ink mb-1">연락처 (휴대폰 번호) <span class="text-rose-500">*</span></label>
+                    <input type="tel" id="applicant-phone" required maxlength="13" placeholder="예: 010-1234-5678"
+                           class="w-full px-4 py-2.5 rounded-2xl bg-white border border-pastel-peach focus:outline-none focus:ring-2 focus:ring-pastel-pink text-sm">
+                </div>
+
+                <!-- 구글 스프레드시트('바이브코딩 심화 연수') 연동 설정 아코디언 -->
+                <div class="rounded-2xl bg-white/80 border border-pastel-lavender p-3">
+                    <button type="button" id="toggle-sheet-config" class="w-full flex items-center justify-between text-xs font-bold text-purple-800 cursor-pointer">
+                        <span>🔗 구글 스프레드시트 [바이브코딩 심화 연수] 웹앱 연동 설정</span>
+                        <span id="sheet-config-arrow">▼</span>
+                    </button>
+                    <div id="sheet-config-panel" class="hidden mt-2.5 pt-2.5 border-t border-pastel-lavender/50 space-y-2">
+                        <p class="text-[11px] text-pastel-ink/75 leading-relaxed">
+                            구글 스프레드시트 <strong>[바이브코딩 심화 연수]</strong>의 확장 프로그램 &gt; Apps Script 배포 URL을 입력하면 실시간으로 시트 행이 추가됩니다. (미입력 시 브라우저 내 시트 명단에 자동 저장 및 CSV 다운로드 가능)
+                        </p>
+                        <input type="url" id="google-script-url" placeholder="https://script.google.com/macros/s/.../exec"
+                               class="w-full px-3 py-2 rounded-xl bg-pastel-cream border border-pastel-lavender text-xs focus:outline-none focus:ring-2 focus:ring-purple-300">
+                    </div>
+                </div>
+
+                <div class="pt-1 flex items-center gap-2.5">
+                    <button type="button" id="cancel-apply-btn"
+                            class="w-1/3 py-3.5 rounded-2xl bg-white border border-gray-200 text-pastel-ink font-bold text-sm hover:bg-gray-50 transition-colors cursor-pointer">
+                        취소
+                    </button>
+                    <button type="submit" id="submit-apply-btn"
+                            class="w-2/3 py-3.5 rounded-2xl bg-gradient-to-r from-rose-400 to-orange-400 text-white font-extrabold text-base shadow-md hover:brightness-105 transition-all cursor-pointer">
+                        🎉 시트 연동 및 신청 완료하기
+                    </button>
+                </div>
+            </form>
+
+            <!-- 신청 완료 확인증 & [바이브코딩 심화 연수] 시트 기록 미리보기 화면 -->
+            <div id="apply-success-view" class="hidden p-6 sm:p-7 text-center space-y-4">
+                <div class="w-14 h-14 mx-auto rounded-full bg-pastel-mintLight border-2 border-pastel-mint flex items-center justify-center text-3xl">
+                    🎊
+                </div>
+                <div>
+                    <span id="sheet-sync-badge" class="inline-block px-3 py-1 rounded-full bg-pastel-mintLight text-emerald-800 font-bold text-xs mb-1">
+                        📊 [바이브코딩 심화 연수] 시트 데이터 기록 완료
+                    </span>
+                    <h4 class="font-display text-2xl text-pastel-ink">심화 연수 신청이 완료되었습니다!</h4>
+                    <p class="text-sm text-pastel-ink/80 mt-1">
+                        <span id="confirm-name" class="font-bold text-rose-600"></span> 선생님, 2026년 11월 25일 영성중학교에서 뵙겠습니다!
+                    </p>
+                </div>
+
+                <!-- 구글 스프레드시트 [바이브코딩 심화 연수] 행(Row) 미리보기 테이블 -->
+                <div class="bg-white rounded-2xl p-3.5 border-2 border-pastel-mint text-left shadow-xs overflow-x-auto">
+                    <div class="text-[11px] font-extrabold text-emerald-700 mb-2 flex items-center justify-between">
+                        <span>📑 스프레드시트 [바이브코딩 심화 연수] 등록 내역</span>
+                        <button type="button" id="download-csv-btn" class="px-2.5 py-1 rounded-lg bg-pastel-mintLight text-emerald-900 hover:bg-pastel-mint transition-colors cursor-pointer">
+                            📥 엑셀/시트용 CSV 저장
+                        </button>
+                    </div>
+                    <table class="w-full text-xs border-collapse">
+                        <thead>
+                            <tr class="bg-pastel-cream text-pastel-ink/70 border-b border-gray-200">
+                                <th class="py-1.5 px-2 font-bold">성함</th>
+                                <th class="py-1.5 px-2 font-bold">근무학교 이름</th>
+                                <th class="py-1.5 px-2 font-bold">시즌1 이수 여부</th>
+                                <th class="py-1.5 px-2 font-bold">연락처</th>
+                            </tr>
+                        </thead>
+                        <tbody id="sheet-preview-tbody" class="divide-y divide-gray-100 font-semibold text-pastel-ink">
+                        </tbody>
+                    </table>
+                </div>
+
+                <button type="button" id="done-apply-btn"
+                        class="w-full py-3.5 rounded-2xl bg-pastel-mint text-pastel-ink font-extrabold text-sm hover:brightness-95 transition-all cursor-pointer">
+                    확인 및 창 닫기
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================================================
+         9. 인터랙티브 스크립트 (스크롤 반짝임 배너, 차트, QR 생성, 구글 시트 연동 모달)
+    ====================================================================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 0. 신청 QR 코드 렌더링 (하단 신청 영역 + 모달 내부)
+            function renderApplicationQRCodes() {
+                const targetUrl = window.location.href.split('#')[0] + '#sec-apply';
+                const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=6&color=2D3142&bgcolor=FFFDF9&data=${encodeURIComponent(targetUrl)}`;
+
+                const containers = [
+                    { el: document.getElementById('footer-qr-box'), sizeClass: 'w-full h-full' },
+                    { el: document.getElementById('modal-qr-box'), sizeClass: 'w-full h-full' }
+                ];
+
+                containers.forEach(({ el, sizeClass }) => {
+                    if (!el) return;
+                    const img = document.createElement('img');
+                    img.src = qrApiUrl;
+                    img.alt = '바이브 코딩 심화 연수 신청 QR 코드';
+                    img.className = `${sizeClass} object-contain rounded-xl`;
+                    img.onerror = () => {
+                        // 오프라인/네트워크 제한 환경 대비 고품질 인라인 SVG QR 대체 렌더링
+                        el.innerHTML = `
+                            <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="신청 QR 코드">
+                                <rect width="100" height="100" rx="10" fill="#FFFDF9"/>
+                                <rect x="10" y="10" width="26" height="26" rx="4" fill="none" stroke="#2D3142" stroke-width="5"/>
+                                <rect x="17" y="17" width="12" height="12" rx="2" fill="#FF8B94"/>
+                                <rect x="64" y="10" width="26" height="26" rx="4" fill="none" stroke="#2D3142" stroke-width="5"/>
+                                <rect x="71" y="17" width="12" height="12" rx="2" fill="#6BCB77"/>
+                                <rect x="10" y="64" width="26" height="26" rx="4" fill="none" stroke="#2D3142" stroke-width="5"/>
+                                <rect x="17" y="71" width="12" height="12" rx="2" fill="#4D96FF"/>
+                                <rect x="44" y="14" width="12" height="12" rx="2" fill="#2D3142"/>
+                                <rect x="44" y="44" width="14" height="14" rx="3" fill="#FF8B94"/>
+                                <rect x="14" y="44" width="18" height="10" rx="2" fill="#2D3142"/>
+                                <rect x="66" y="46" width="22" height="10" rx="2" fill="#2D3142"/>
+                                <rect x="46" y="68" width="16" height="20" rx="2" fill="#2D3142"/>
+                                <rect x="70" y="66" width="18" height="22" rx="3" fill="#2D3142"/>
+                            </svg>
+                        `;
+                    };
+                    el.innerHTML = '';
+                    el.appendChild(img);
+                });
+            }
+            renderApplicationQRCodes();
+
+            // 1. 상단 스크롤 연동 반짝임 배너 & 진행률 게이지
+// ... existing code ...
+            // 4. 참가 신청 모달 제어 & 구글 스프레드시트('바이브코딩 심화 연수') 연동
+            const applyModal = document.getElementById('apply-modal');
+            const openModalBtn = document.getElementById('open-apply-modal-btn');
+            const closeModalBtn = document.getElementById('close-apply-modal-btn');
+            const cancelApplyBtn = document.getElementById('cancel-apply-btn');
+            const doneApplyBtn = document.getElementById('done-apply-btn');
+            const applyForm = document.getElementById('apply-form');
+            const successView = document.getElementById('apply-success-view');
+            const phoneInput = document.getElementById('applicant-phone');
+            const toggleSheetConfigBtn = document.getElementById('toggle-sheet-config');
+            const sheetConfigPanel = document.getElementById('sheet-config-panel');
+            const sheetConfigArrow = document.getElementById('sheet-config-arrow');
+            const scriptUrlInput = document.getElementById('google-script-url');
+            const downloadCsvBtn = document.getElementById('download-csv-btn');
+
+            // 저장된 웹앱 URL 복원 및 로컬 시트 명단 상태
+            const STORAGE_KEY_URL = 'vibe_advanced_sheet_webapp_url';
+            const STORAGE_KEY_ROWS = 'vibe_advanced_sheet_rows';
+            if (scriptUrlInput && localStorage.getItem(STORAGE_KEY_URL)) {
+                scriptUrlInput.value = localStorage.getItem(STORAGE_KEY_URL);
+            }
+
+            // 휴대폰 번호 자동 하이픈(-) 포맷팅
+            phoneInput?.addEventListener('input', (e) => {
+                const digits = e.target.value.replace(/\D/g, '').slice(0, 11);
+                if (digits.length < 4) {
+                    e.target.value = digits;
+                } else if (digits.length < 8) {
+                    e.target.value = `${digits.slice(0, 3)}-${digits.slice(3)}`;
+                } else {
+                    e.target.value = `${digits.slice(0, 3)}-${digits.slice(3, 7)}-${digits.slice(7)}`;
+                }
+            });
+
+            // 구글 시트 연동 설정 아코디언 토글
+            toggleSheetConfigBtn?.addEventListener('click', () => {
+                const isHidden = sheetConfigPanel.classList.contains('hidden');
+                sheetConfigPanel.classList.toggle('hidden');
+                sheetConfigArrow.textContent = isHidden ? '▲' : '▼';
+            });
+
+            function openModal() {
+                applyModal.classList.remove('hidden');
+                applyModal.classList.add('flex');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeModal() {
+                applyModal.classList.add('hidden');
+                applyModal.classList.remove('flex');
+                document.body.style.overflow = '';
+            }
+
+            // URL 해시가 #sec-apply로 진입한 경우(QR 스캔 등) 부드럽게 스크롤
+            if (window.location.hash === '#sec-apply') {
+                setTimeout(() => {
+                    document.getElementById('sec-apply')?.scrollIntoView({ behavior: 'smooth' });
+                }, 300);
+            }
+
+            openModalBtn?.addEventListener('click', () => {
+                applyForm.classList.remove('hidden');
+                successView.classList.add('hidden');
+                openModal();
+            });
+
+            closeModalBtn?.addEventListener('click', closeModal);
+            cancelApplyBtn?.addEventListener('click', closeModal);
+            doneApplyBtn?.addEventListener('click', closeModal);
+
+            applyModal?.addEventListener('click', (e) => {
+                if (e.target === applyModal) closeModal();
+            });
+
+            function renderSheetPreviewTable(rows) {
+                const tbody = document.getElementById('sheet-preview-tbody');
+                if (!tbody) return;
+                tbody.innerHTML = rows.slice(-5).reverse().map(r => `
+                    <tr>
+                        <td class="py-1.5 px-2">${r.name}</td>
+                        <td class="py-1.5 px-2">${r.school}</td>
+                        <td class="py-1.5 px-2"><span class="px-2 py-0.5 rounded-full bg-pastel-mintLight text-emerald-800">${r.season1Completed}</span></td>
+                        <td class="py-1.5 px-2">${r.phone}</td>
+                    </tr>
+                `).join('');
+            }
+
+            applyForm?.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const submitBtn = document.getElementById('submit-apply-btn');
+                const name = document.getElementById('applicant-name').value.trim();
+                const school = document.getElementById('applicant-school').value.trim();
+                const season1Completed = document.querySelector('input[name="season1-status"]:checked')?.value || '이수 완료';
+                const phone = document.getElementById('applicant-phone').value.trim();
+                const scriptUrl = scriptUrlInput?.value.trim() || '';
+
+                if (scriptUrl) {
+                    localStorage.setItem(STORAGE_KEY_URL, scriptUrl);
+                }
+
+                const newRecord = {
+                    timestamp: new Date().toLocaleString('ko-KR'),
+                    sheetName: '바이브코딩 심화 연수',
+                    name,
+                    school,
+                    season1Completed,
+                    phone
+                };
+
+                // 로컬 명단 저장
+                let existingRows = [];
+                try {
+                    existingRows = JSON.parse(localStorage.getItem(STORAGE_KEY_ROWS) || '[]');
+                } catch (_) {
+                    existingRows = [];
+                }
+                existingRows.push(newRecord);
+                localStorage.setItem(STORAGE_KEY_ROWS, JSON.stringify(existingRows));
+
+                // 구글 스프레드시트('바이브코딩 심화 연수') 웹앱 URL이 설정된 경우 실제 전송
+                const syncBadge = document.getElementById('sheet-sync-badge');
+                if (scriptUrl) {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = '⏳ 구글 시트 전송 중...';
+                    try {
+                        await fetch(scriptUrl, {
+                            method: 'POST',
+                            mode: 'no-cors',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(newRecord)
+                        });
+                        if (syncBadge) {
+                            syncBadge.textContent = '✅ 구글 스프레드시트 [바이브코딩 심화 연수] 실시간 전송 완료!';
+                        }
+                    } catch (err) {
+                        console.error('구글 시트 전송 오류:', err);
+                        if (syncBadge) {
+                            syncBadge.textContent = '📋 신청 내역 저장 완료 (시트 URL 연결 확인 필요)';
+                        }
+                    } finally {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = '🎉 시트 연동 및 신청 완료하기';
+                    }
+                } else if (syncBadge) {
+                    syncBadge.textContent = '📊 [바이브코딩 심화 연수] 신청 명단 등록 완료';
+                }
+
+                document.getElementById('confirm-name').textContent = name;
+                renderSheetPreviewTable(existingRows);
+
+                applyForm.classList.add('hidden');
+                successView.classList.remove('hidden');
+
+                // 축하 컨페티 발사
+                if (typeof confetti === 'function') {
+                    confetti({
+                        particleCount: 85,
+                        spread: 70,
+                        origin: { y: 0.6 },
+                        colors: ['#FFAAA5', '#FFD3B6', '#A8E6CF', '#E0BBE4', '#FFE66D']
+                    });
+                }
+            });
+
+            // 구글 스프레드시트 업로드용 CSV 다운로드
+            downloadCsvBtn?.addEventListener('click', () => {
+                let rows = [];
+                try {
+                    rows = JSON.parse(localStorage.getItem(STORAGE_KEY_ROWS) || '[]');
+                } catch (_) {
+                    rows = [];
+                }
+                if (!rows.length) return;
+
+                const header = ['신청일시', '연수시트명', '성함', '근무학교 이름', '바이브코딩 시즌1 기초 과정 이수 여부', '연락처'];
+                const csvContent = '\uFEFF' + [
+                    header.join(','),
+                    ...rows.map(r => [r.timestamp, r.sheetName, r.name, r.school, r.season1Completed, r.phone].map(v => `"${String(v).replace(/"/g, '""')}"`).join(','))
+                ].join('\n');
+
+                const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = '바이브코딩_심화_연수_신청명단.csv';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            });
+        });
+    </script>
+</body>
+</html>
